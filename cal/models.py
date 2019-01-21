@@ -8,3 +8,7 @@ class Numbers(models.Model):
 
     def __str__(self):
         return self.date1,self.date2
+
+
+    def compare(self):
+        return self.date1 > self.date2
